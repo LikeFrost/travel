@@ -1,0 +1,20 @@
+@import '@alifd/theme-design-pro/variables.css';
+@import '@alifd/theme-design-pro/dist/next.var.css';
+
+
+
+body {
+  --bgGray: #ebf0f5;
+  
+  --blackShadow:2px 2px 5px gray;
+
+  --textColor: #87929d;
+  --placeholderColor: #989ea3;
+  
+  -webkit-font-smoothing: antialiased;
+  background: var(--bgGray);
+}
+$browser-default-font-size:16px !default;
+@function px($px) {
+  @return $px / $browser-default-font-size * 1rem;
+}

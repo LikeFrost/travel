@@ -1,0 +1,28 @@
+.article{
+    margin: 20px;
+    // position: relative;
+    // left: calc( 100vw - width*0.5 );
+    display: flex;
+    align-items: center;
+    box-shadow: var(--blackShadow);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 300px;
+}
+.img{
+    border-radius: 10px;
+    max-height: 280px;
+}
+.right{
+    margin-left: 10px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.text{
+    color: var(--textColor);
+    white-space: pre-line;
+}
