@@ -1,28 +1,20 @@
 .article{
     margin: 20px;
-    display: flex;
-    align-items: center;
     box-shadow: var(--blackShadow);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     background-color: white;
-    height: 300px;
+    min-height: 200px;
     transition: all .3s;
 }
 .article:hover{
     transform: translateX(10px);
 }
-.img{
-    border-radius: 10px;
-    max-height: 280px;
-}
-.right{
-    margin-left: 10px;
-}
 .title{
     font-size: 30px;
     font-weight: 700;
     margin: 10px 0;
+    text-align: center;
 }
 .text{
     color: var(--textColor);

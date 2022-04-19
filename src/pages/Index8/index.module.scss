@@ -4,27 +4,21 @@
     align-items: center;
     box-shadow: var(--blackShadow);
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
     background-color: white;
-    height: 300px;
     transition: all .3s;
 }
 .article:hover{
     transform: translateX(10px);
 }
-.img{
-    border-radius: 10px;
-    max-height: 280px;
-}
-.right{
-    margin-left: 10px;
-}
 .title{
     font-size: 30px;
     font-weight: 700;
-    margin: 10px 0;
+    text-align: center;
+    margin: 30px 0 10px 0;
 }
 .text{
     color: var(--textColor);
     white-space: pre-line;
+    font-size: 16px;
 }

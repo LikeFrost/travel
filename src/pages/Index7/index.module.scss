@@ -1,12 +1,10 @@
 .article{
     margin: 20px;
-    display: flex;
-    align-items: center;
     box-shadow: var(--blackShadow);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: white;
-    height: 300px;
+    text-align: center;
     transition: all .3s;
 }
 .article:hover{
@@ -14,17 +12,31 @@
 }
 .img{
     border-radius: 10px;
-    max-height: 280px;
+    max-height: 200px;
+    padding: 10px 0;
 }
 .right{
     margin-left: 10px;
 }
 .title{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin: 10px 0;
 }
 .text{
     color: var(--textColor);
     white-space: pre-line;
+    text-align: left;
+}
+.time{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 }

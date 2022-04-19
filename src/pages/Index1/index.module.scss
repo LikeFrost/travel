@@ -23,6 +23,10 @@
 }
 .article{
     margin: 40px 0;
+    transition: all .3s;
+}
+.article:hover{
+    transform: translateX(10px);
 }
 .title{
     font-size: 30px;

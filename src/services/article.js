@@ -11,4 +11,19 @@ export default {
       '/article/culture',
     );
   },
+  async getTravelArticle() {
+    return await request.get(
+      '/article/travel',
+    );
+  },
+  async getActivityArticle() {
+    return await request.get(
+      '/article/activity',
+    );
+  },
+  async getInformArticle() {
+    return await request.get(
+      '/article/inform',
+    );
+  },
 };

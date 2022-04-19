@@ -3,6 +3,9 @@ import { Tab } from '@alifd/next';
 import Index1 from '../Index1';
 import Index2 from '../Index2';
 import Index4 from '../Index4';
+import Index6 from '../Index6';
+import Index7 from '../Index7';
+import Index8 from '../Index8';
 
 const tabConfig = [
   { title: '首页', key: 1, children: <Index1 /> },
@@ -10,9 +13,9 @@ const tabConfig = [
   { title: '论坛角', key: 3, children: '' },
   { title: '非遗申报指南', key: 4, children: <Index4 /> },
   { title: '检索查询', key: 5, children: '' },
-  { title: '苗寨出行攻略', key: 6, children: '' },
-  { title: '精彩活动', key: 7, children: '' },
-  { title: '苗寨信息公告', key: 8, children: '' },
+  { title: '苗寨出行攻略', key: 6, children: <Index6 /> },
+  { title: '精彩活动', key: 7, children: <Index7 /> },
+  { title: '苗寨信息公告', key: 8, children: <Index8 /> },
 ];
 function Home() {
   return (

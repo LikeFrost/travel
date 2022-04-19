@@ -3,24 +3,23 @@ import store from '@/store';
 import styles from './index.module.scss';
 import { ResponsiveGrid } from '@alifd/next';
 
-function Index2() {
+function Index8() {
   const { Cell } = ResponsiveGrid;
   const [dataArticle, dispatchers_article] = store.useModel('article');
   useEffect(() => {
-    dispatchers_article.getCultureArticle();
+    dispatchers_article.getInformArticle();
   }, []);
   return (
     <ResponsiveGrid>
+      <Cell colSpan={12}>
+        <div className={styles.title}>通知公告</div>
+      </Cell>
       <Cell colSpan={2} rowSpan={100} />
       {
-        dataArticle.cultureArticle && dataArticle.cultureArticle.map((item, index) => {
+        dataArticle.informArticle && dataArticle.informArticle.map((item, index) => {
           return (
             <Cell className={styles.article} key={index} colSpan={8}>
-              <img src={`data:image/png;base64,${item.Img}`} className={styles.img} />
-              <div className={styles.right}>
-                <div className={styles.title}>{item.Title}</div>
-                <div className={styles.text}>{item.Text.replace(/\\n/g, '\n\n')}</div>
-              </div>
+              <div className={styles.text}>{item.Text.replace(/\\n/g, '\n\n')}</div>
             </Cell>
           );
         })
@@ -29,4 +28,4 @@ function Index2() {
   );
 }
 
-export default Index2;
+export default Index8;
