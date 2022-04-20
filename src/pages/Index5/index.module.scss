@@ -1,35 +1,35 @@
-.container{
-    text-align: center;
-    //margin-top: 35vh;
-    transition: all .5s;
+.container {
+  text-align: center;
+  //margin-top: 35vh;
+  transition: all .5s;
 }
-.input{
-    width: 60%;
-    margin-right: 5px;
+.input {
+  width: 60%;
+  margin-right: 5px;
 }
-.article{
-    margin: 20px;
-    text-align: left;
-    box-shadow: var(--blackShadow);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: white;
-    transition: all .3s;
+.article {
+  margin: 20px;
+  text-align: left;
+  box-shadow: var(--blackShadow);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  transition: all .3s;
 }
-.article:hover{
-    transform: translateX(10px);
+.article:hover {
+  transform: translateX(10px);
 }
-.title{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 10px 0;
-    text-align: center;
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center;
 }
-.text{
-    color: var(--textColor);
-    white-space: pre-line;
+.text {
+  color: var(--textColor);
+  white-space: pre-line;
 }
-.info{
-    color: var(--textColor);
-    margin: 20px;
+.info {
+  color: var(--textColor);
+  margin: 20px;
 }

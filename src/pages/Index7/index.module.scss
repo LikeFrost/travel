@@ -1,70 +1,70 @@
-.article{
-    margin: 20px;
-    box-shadow: var(--blackShadow);
-    border-radius: 10px;
-    padding: 10px 20px;
-    background-color: white;
-    text-align: center;
-    transition: all .3s;
+.article {
+  margin: 20px;
+  box-shadow: var(--blackShadow);
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  text-align: center;
+  transition: all .3s;
 }
-.article:hover{
-    transform: translateX(10px);
+.article:hover {
+  transform: translateX(10px);
 }
-.img{
-    border-radius: 10px;
-    max-height: 200px;
-    max-width: 300px;
-    padding: 10px 0;
+.img {
+  border-radius: 10px;
+  max-height: 200px;
+  max-width: 300px;
+  padding: 10px 0;
 }
-.right{
-    margin-left: 10px;
+.right {
+  margin-left: 10px;
 }
-.title{
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 0;
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px 0;
 }
-.text{
-    color: var(--textColor);
-    white-space: pre-line;
-    text-align: left;
+.text {
+  color: var(--textColor);
+  white-space: pre-line;
+  text-align: left;
 }
-.time{
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.time {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.location{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
 }
-.delete{
-    text-align: right;
-    margin: 0 0 10px 10px;
+.delete {
+  text-align: right;
+  margin: 0 0 10px 10px;
 }
-.titleInput{
-    width: 100%;
-    margin: 5px 0;
+.titleInput {
+  width: 100%;
+  margin: 5px 0;
 }
-.textInput{
-    width: 100%;
-    margin: 5px 0;
+.textInput {
+  width: 100%;
+  margin: 5px 0;
 }
-.locationInput{
-    width: 100%;
-    margin: 5px 0;
+.locationInput {
+  width: 100%;
+  margin: 5px 0;
 }
-.timeInput{
-    width: 100%;
-    margin: 5px 0;
+.timeInput {
+  width: 100%;
+  margin: 5px 0;
 }
-.imgInput{
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imgInput {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

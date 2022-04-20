@@ -1,50 +1,50 @@
-.slider{
-    margin: 30px;
+.slider {
+  margin: 30px;
 }
-.img_box{
-    height: 600px;
-    width: 700px;
-    overflow: hidden;
-    position: relative;
+.img_box {
+  height: 600px;
+  width: 700px;
+  overflow: hidden;
+  position: relative;
 }
-.img{
-    max-height: 600px;
-    max-width: 700px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    box-shadow: var(--blackShadow);
+.img {
+  max-height: 600px;
+  max-width: 700px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: var(--blackShadow);
 }
-.articles{
-    padding: 20px 50px 0 0;
+.articles {
+  padding: 20px 50px 0 0;
 }
-.article{
-    margin: 40px 0;
-    transition: all .3s;
+.article {
+  margin: 40px 0;
+  transition: all .3s;
 }
-.article:hover{
-    transform: translateX(10px);
+.article:hover {
+  transform: translateX(10px);
 }
-.title{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 10px 0;
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
 }
-.text{
-    color: var(--textColor);
-    font-size: 16px;
+.text {
+  color: var(--textColor);
+  font-size: 16px;
 }
-.button{
-    justify-content: center;
-    display: flex;
+.button {
+  justify-content: center;
+  display: flex;
 }
-.input{
-    width: 100%;
-    margin: 10px 0;
+.input {
+  width: 100%;
+  margin: 10px 0;
 }
-.delete{
-    text-align: right;
+.delete {
+  text-align: right;
 }
