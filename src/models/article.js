@@ -7,6 +7,7 @@ export default {
     travelArticle: [],
     activityArticle: [],
     informArticle: [],
+    searchArticle: [],
   },
   reducers: {
     setSliderArticle(pre, now) {
@@ -23,6 +24,9 @@ export default {
     },
     setInformArticle(pre, now) {
       pre.informArticle = now;
+    },
+    setSearchArticle(pre, now) {
+      pre.searchArticle = now;
     },
   },
   effects: (dispatch) => ({
@@ -45,6 +49,17 @@ export default {
     async getInformArticle() {
       const data = await ArticleService.getInformArticle();
       dispatch.article.setInformArticle(data.article);
+    },
+    async getSearchArticle(search) {
+      const data = await ArticleService.getSearchArticle(search);
+      dispatch.article.setSearchArticle(data.article);
+      return data.article;
+    },
+    async addArticle(props) {
+      return await ArticleService.addArticle(props);
+    },
+    async deleteArticle(id) {
+      return await ArticleService.deleteArticle(id);
     },
   }),
 };

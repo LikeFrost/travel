@@ -6,7 +6,7 @@
     border-radius: 10px;
     padding: 10px;
     background-color: white;
-    height: 300px;
+    min-height: 300px;
     transition: all .3s;
 }
 .article:hover{
@@ -27,4 +27,30 @@
 .text{
     color: var(--textColor);
     white-space: pre-line;
+}
+.delete{
+    text-align: right;
+    margin: 10px;
+}
+.imgInput{
+    height: 280px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imgIn{
+    max-width: 350px;
+    max-height: 250px;
+}
+.rightInput{
+    text-align: right;
+}
+.titleInput{
+    width: 100%;
+    margin: 10px 0;
+}
+.textInput{
+    width: 100%;
 }

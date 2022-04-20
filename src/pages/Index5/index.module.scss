@@ -1,10 +1,19 @@
+.container{
+    text-align: center;
+    //margin-top: 35vh;
+    transition: all .5s;
+}
+.input{
+    width: 60%;
+    margin-right: 5px;
+}
 .article{
     margin: 20px;
+    text-align: left;
     box-shadow: var(--blackShadow);
     border-radius: 10px;
     padding: 20px;
     background-color: white;
-    min-height: 200px;
     transition: all .3s;
 }
 .article:hover{
@@ -20,15 +29,7 @@
     color: var(--textColor);
     white-space: pre-line;
 }
-.delete{
-    text-align: right;
-    margin: 0 0 10px 10px;
-}
-.titleInput{
-    width: 100%;
-    margin: 10px 0;
-}
-.textInput{
-    width: 100%;
-    margin: 10px 0;
+.info{
+    color: var(--textColor);
+    margin: 20px;
 }

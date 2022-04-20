@@ -1,0 +1,44 @@
+.container{
+    padding: 40px;
+}
+.comment{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--blackShadow);
+    background-color: white;
+    margin-top: 30px;
+    transition: all .5s;
+}
+.comment:hover{
+    transform: translateX(10px);
+}
+.commentInput{
+    text-align: right;
+}
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.right{
+    margin: 0 5px;
+}
+.user{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.time{
+    font-size: 12px;
+    font-weight: 300;
+}
+.text{
+    padding: 5px;
+    font-size: 15px;
+}
+.delete{
+    text-align: right;
+}

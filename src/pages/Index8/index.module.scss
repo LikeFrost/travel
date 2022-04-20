@@ -1,7 +1,5 @@
 .article{
     margin: 20px;
-    display: flex;
-    align-items: center;
     box-shadow: var(--blackShadow);
     border-radius: 10px;
     padding: 30px;
@@ -21,4 +19,11 @@
     color: var(--textColor);
     white-space: pre-line;
     font-size: 16px;
+}
+.delete{
+    text-align: right;
+}
+.input{
+    width: 100%;
+    margin: 10px 0 ;
 }

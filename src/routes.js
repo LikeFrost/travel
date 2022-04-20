@@ -1,6 +1,6 @@
 import BasicLayout from '@/layouts/BasicLayout';
-import UserLayout from './layouts/UserLayout';
 import Home from './pages/Home';
+import Login from './pages/Login';
 
 const routerConfig = [
   {
@@ -12,6 +12,18 @@ const routerConfig = [
         path: '/',
         exact: true,
         component: Home,
+      },
+    ],
+  },
+  {
+    path: '/',
+    exact: true,
+    component: BasicLayout,
+    children: [
+      {
+        path: '/',
+        exact: true,
+        component: Login,
       },
     ],
   },

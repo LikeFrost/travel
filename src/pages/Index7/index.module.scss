@@ -13,6 +13,7 @@
 .img{
     border-radius: 10px;
     max-height: 200px;
+    max-width: 300px;
     padding: 10px 0;
 }
 .right{
@@ -39,4 +40,31 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0;
+}
+.delete{
+    text-align: right;
+    margin: 0 0 10px 10px;
+}
+.titleInput{
+    width: 100%;
+    margin: 5px 0;
+}
+.textInput{
+    width: 100%;
+    margin: 5px 0;
+}
+.locationInput{
+    width: 100%;
+    margin: 5px 0;
+}
+.timeInput{
+    width: 100%;
+    margin: 5px 0;
+}
+.imgInput{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
